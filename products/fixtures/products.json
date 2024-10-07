@@ -1,0 +1,31 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+        "sku": "pp5001340155",
+        "name": "Hand Drawn Pencil Portrait",
+        "description": "Capture the moments that matter most with a hand-drawn portrait—a gift that speaks from the heart. Each portrait is a unique piece of art, carefully crafted with time, attention, and unparalleled artistry. Unlike mass-produced prints, this one-of-a-kind artwork carries the warmth and dedication of skilled hands, bringing life to the faces and memories you cherish. Perfect for anyone seeking a meaningful and personalized gift for a loved one, these portraits are more than just a keepsake; they are a timeless expression of love, care, and thoughtfulness. Whether for birthdays, anniversaries, or just because, give a gift that will be treasured forever—a beautiful, hand-crafted portrait made with love.",
+        "price": 179.99,
+        "category": 6,
+        "rating": 4.6,
+        "image_url": "",
+        "image": ""
+        }
+    },
+
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+        "sku": "pp5001600425",
+        "name": "Digital Portrait",
+        "description": "Celebrate your special moments with a custom digital portrait—an artistic gift that combines convenience with a personal touch. Each portrait is carefully designed to capture the essence of your loved one in a beautiful, one-of-a-kind digital format. Perfect for sharing memories across all platforms, you’ll receive both an original, uncompressed file for high-quality printing and a compressed version that's ready for social media. The flexibility of the digital format allows you to print it at any size, any style, and at any printshop of your choice. Ideal for those seeking a thoughtful, customizable gift that blends creativity and convenience, this digital portrait is a timeless keepsake made just for you.",
+        "price": 69.99,
+        "category": 6,
+        "rating": 4.2,
+        "image_url": "",
+        "image": ""
+        }
+    }
+]
