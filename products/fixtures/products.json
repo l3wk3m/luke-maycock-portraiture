@@ -19,11 +19,71 @@
         "model": "products.product",
         "fields": {
         "sku": "pp5001600425",
-        "name": "Digital Portrait",
+        "name": "Full Colour Digital Portrait",
         "description": "Celebrate your special moments with a custom digital portrait—an artistic gift that combines convenience with a personal touch. Each portrait is carefully designed to capture the essence of your loved one in a beautiful, one-of-a-kind digital format. Perfect for sharing memories across all platforms, you’ll receive both an original, uncompressed file for high-quality printing and a compressed version that's ready for social media. The flexibility of the digital format allows you to print it at any size, any style, and at any printshop of your choice. Ideal for those seeking a thoughtful, customizable gift that blends creativity and convenience, this digital portrait is a timeless keepsake made just for you.",
         "price": 69.99,
         "category": 2,
         "rating": 4.2,
+        "image_url": "",
+        "image": ""
+        }
+    },
+
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+        "sku": "pp5001730010",
+        "name": "Framed Hand Drawn Pencil Portrait",
+        "description": "Capture cherished memories with a beautifully hand-drawn pencil portrait, now available framed for a complete and polished look. Each portrait is lovingly crafted by hand, making it a truly personal and one-of-a-kind gift. Whether you’re celebrating a special occasion or simply want to surprise someone with a thoughtful gesture, this framed version adds an extra touch of elegance while maintaining the same authentic and handcrafted appeal as our unframed model. Offered at a special discounted price, the frame enhances the portrait's presence, ready to display as soon as it arrives—perfect for gifting! Whether it’s for a birthday, anniversary, or just to show your love, this framed hand-drawn portrait is a unique, meaningful keepsake that will be treasured for years to come. Ideal for anyone seeking a personal and heartfelt gift, this portrait will capture the emotion and essence of the moment in timeless pencil strokes.",
+        "price": 199.99,
+        "category": 1,
+        "rating": 4.8,
+        "image_url": "",
+        "image": ""
+        }
+    },
+
+    {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+        "sku": "pp5001890157",
+        "name": "Hand Painted Portrait",
+        "description": "Give the gift of timeless beauty with a handcrafted portrait painting, created by a skilled and trained artist. Each brushstroke brings your loved one’s likeness to life, offering a unique, personalized piece of art that captures the essence of their personality. The handcrafted nature of this portrait ensures that no two pieces are the same, making it a truly one-of-a-kind gift. Perfect for anyone looking to give a meaningful, personal gift that will be cherished for years, this portrait painting is ideal for birthdays, anniversaries, or special occasions. Whether you want to commemorate a milestone or simply show someone how much they mean to you, this custom artwork is a beautiful way to do it. Crafted with care and attention to detail, this painting isn’t just art—it’s a personalized keepsake that will be a lasting reminder of the bond you share.",
+        "price": 229.99,
+        "category": 1,
+        "rating": 4.2,
+        "image_url": "",
+        "image": ""
+        }
+    },
+
+    {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+        "sku": "pp5002111605",
+        "name": "Hand Painted Portrait",
+        "description": "Give the gift of art and elegance with a handcrafted portrait painting, now available framed at a special discounted price. Created by a talented, trained artist, each portrait is uniquely tailored to capture the essence of your loved one in every brushstroke. The hand-crafted nature of the piece ensures that it’s not just a painting, but a personalized masterpiece made with care. With the added bonus of a stylish frame, this artwork is ready to hang the moment it arrives, making it a perfect, hassle-free gift for any occasion. Whether you're celebrating a birthday, anniversary, or simply want to give a thoughtful, one-of-a-kind present, this framed portrait offers both sentimental value and artistic quality. Designed for anyone seeking a meaningful, personal gift, this framed painting will become a cherished keepsake, enhancing any home and commemorating the special bond between you and your loved one.",
+        "price": 249.99,
+        "category": 1,
+        "rating": 4.3,
+        "image_url": "",
+        "image": ""
+        }
+    },
+
+    {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+        "sku": "pp5002260206",
+        "name": "Black and White Digital Portrait",
+        "description": "Capture the essence of your loved one with a stunning black and white digital portrait, designed to be both personal and timeless. Created with precision and care, this custom digital artwork offers a modern, sleek take on portraiture—perfect for celebrating special moments or giving a thoughtful, personalized gift. With your purchase, you’ll receive an uncompressed, full-quality version of the artwork, ideal for printing and framing, along with a compressed version that’s optimized for easy sharing on social media. Whether you want to preserve a memory or showcase it online, this digital portrait offers the flexibility to do both. Ideal for those seeking a meaningful and unique gift, this digital portrait brings a blend of classic artistry and modern convenience, creating a keepsake that can be shared and treasured forever.",
+        "price": 39.99,
+        "category": 2,
+        "rating": 4.5,
         "image_url": "",
         "image": ""
         }
