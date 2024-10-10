@@ -3,6 +3,7 @@ from django.conf import settings
 from django.db.models import Sum
 
 from products.models import Product
+from profiles.models import UserProfile
 
 # Create your models here.
 
@@ -28,7 +29,7 @@ class Order(models.Model):
         return self.order_number
 
 class OrderLineItem(models.Model):
-    order = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
+    order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE)
     product = models.ForeignKey(Product, null=False, blank=False, on_delete=models.CASCADE)
     product_size = models.CharField(max_length=2, null=True, blank=True)
     quantity = models.IntegerField(null=False, blank=False, default=0)
