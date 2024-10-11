@@ -1,14 +1,14 @@
-# Studio Booker
+# Luke Maycock Portraiture
 
 ![AmIResponsive image of Studio Booker]()
 
 ## Introduction
 
-The project is to build a website where you as a user can book a space in a local art studio. If the user doesn't visit the website with the goal to book a studio space right away, the website should work as an inspiration.
+The project is to build an ecommerce website to sell hand drawn portrait service.
 
 ## Table of Contents
 
-- [Studio Booker](#studiobooker)
+- [Luke Maycock Portraiture](#lukemaycockportraiture)
   - [Introduction](#introduction)
   - [Table of Contents](#table-of-contents)
   - [User Experience](#user-experience)
@@ -16,9 +16,8 @@ The project is to build a website where you as a user can book a space in a loca
     - [Site Owner Goals](#site-owner-goals)
     - [User Stories](#user-stories)
       - [Epic 1 - User account creation process](#epic-1---user-account-creation-process)
-      - [Epic 2 - Development of a studio booking system](#epic-2---development-of-a-course-booking-system)
-      - [Epic 3 - Development of user testimonials](#epic-3---development-of-user-testimonials)
-      - [Epic 4 - Enhancing website aesthetics](#epic-4---enhancing-website-aesthetics)
+      - [Epic 2 - Development of a the ecommerce platform](#epic-2---development-of-a-course-booking-system)
+      - [Epic 3 - Enhancing website aesthetics](#epic-3---enhancing-website-aesthetics)
   - [Design](#design)
     - [Color Scheme](#color-scheme)
     - [Typography](#typography)
@@ -34,7 +33,6 @@ The project is to build a website where you as a user can book a space in a loca
       - [Sign in page](#sign-in-page)
       - [Sign out page](#sign-out-page)
       - [404 page](#404-page)
-      - [500 page](#500-page)
     - [Entity Relationship Diagram - ERD](#entity-relationship-diagram---erd)
   - [Features](#features)
     - [Header](#header)
@@ -79,9 +77,6 @@ The project is to build a website where you as a user can book a space in a loca
     - [404 page](#404-page-1)
       - [404 page text](#404-page-text)
       - [404 page button](#404-page-button)
-    - [500 page](#500-page-1)
-      - [500 page text](#500-page-text)
-      - [500 page tips](#500-page-tips)
     - [Footer](#footer)
   - [Features to be Added](#features-to-be-added)
   - [Testing](#testing)
@@ -133,17 +128,17 @@ The project is to build a website where you as a user can book a space in a loca
 
 ### User Goals
 
-One of the user goals is to be able to book __________. The user should also have a smooth experience with full CRUD (Create, Read, Update and Delete) accessibility to their bookings. The goal is also to view already created projects and to inspire the user.
+One of the user goals is to be able seamlessly purchase portraiture services online. The user should also have a smooth experience with full CRUD (Create, Read, Update and Delete) accessibility to their bookings. The goal is also to view already created projects and to inspire the user.
 
 ### Site Owner Goals
 
-The site owner goal is to facilitate the frictionless booking of studio spaces for local artists.
+The site owner goal is to facilitate the frictionless purchase of portrait art services for the customer, with robust technologies in place to complete the processing of an order should something go wrong during the process.
 
 ### User Stories
 
-For the project, four different Epics were created. To them, a total of 13 user stories were created. To view all user stories, they are viewable at the [Projects board](). All user stories were assigned one of the following classes; Must have, Should have, Could have or Won't have. 
+For the project, four different Epics were created. To them, a total of 13 user stories were created. To view all user stories, they are viewable at the [Projects board](https://github.com/users/l3wk3m/projects/3). All user stories were assigned one of the following classes; Must have, Should have, Could have or Won't have. 
 
-The following user stories were completed within the first release of Studio Booker.
+The following user stories were completed within the first release of Luke Maycock Portraiture.
 
 #### Epic 1 - User account creation process
 
@@ -167,69 +162,45 @@ Given the user doesn't have an account, when the user is filling out the sign up
 - Acceptance Criteria 2  
 Given the user doesn't have an account, when the user is filling out the sign up form the form has input validation (e.g., email format)
 
-#### Epic 2 - Development of a studio booking system
+#### Epic 2 - Customer purchasing experience
 
-As a site owner I would like to have a comprehensive booking system so that users can effortlessly create, read, update and delete bookings.
+As a site owner I would like users of my website to be able to quickly see what it is they want and to buy it in as frictionless a manner as possible.
 
-**User Story - Viewing available studios**
+**User Story - Accessing the Products Page**
 
-As a Site User I can easily view all available studios so that I can book a studio based on my availability
+As a site user I want to be able to spot and navigate to the products page easily. I should be able to see where I need to go immediately with little investment.
+
+**User Story - Add to Cart**
+
+As a site user I want to be able to add an item to my cart as soon as I've decided to purchase the item.
+
+**User Story - Confirmation Toast**
+
+As a site user I will get an onscreen confirmation that an item has been added to my cart. This will give me confidence in the user experience I will have on the website.
 
 - Acceptance Criteria 1  
-As a site user the booking page is visited displaying a list of available studios  
+Whenever the user adds or removes an item from their cart or checks out successfully, a toast pop-up should immediately appear, confirming the change  
 - Acceptance Criteria 2  
-As a site user, the studios list includes crucial details, such as the studio's location, availability, description, etc.  
+Given a toast pop-up is displayed to the user when the user clicks the "Cancel" button the toast closes without making any modifications to the booking
 
-**User Story - Creating a new booking**
+**User Story - Edit Cart**
 
-As a Site User I can book a studio so that I can secure my exclusive place
+As a site user I will be able to edit my cart from the popup confirmation message or from the cart page. This will give me a sense of autonomy throughout the purchasing process.
 
-- Acceptance Criteria 1  
-As a Site User I can visit the booking page and view a "Book" button next to / within my desired studio / time slot 
-- Acceptance Criteria 2
-As a Site User I can click the "Book" button and recieve confirmation of my choice of studio
+**User Story - Checkout**
 
-**User Story - Viewing my bookings**
+As a site user I will be able to checkout via the checkout page. Upon checking out I will get an order confirmation as well as a second confirmation via email. This will give me confidence that once I have paid for my purchase it has been registered by the site owner with an order number for me to be able to reference.
 
-As a Site User I can view a list of my current bookings so that I can manage my schedule and review the studio I'm booked into
+**User Story - View Orders**
 
-- Acceptance Criteria 1  
-Given the user has a booked studio associate with their account, the user can view their currently booked studios  
-- Acceptance Criteria 2  
-Given the user has a booked studio associate with their account, they can view the details of any currently booked studios, including date, time, studio name, studio description
+As a user with an account I will be able to see my past orders once I have logged in to the website. This redoubles confidence that my order has been recieved and is being processed.
 
-**User Story - Modifying an existing booking**
 
-As a Site User / Admin I can change the date or details of my existing studio bookings so that I can adjust my schedule
+#### Epic 3 - Developing User Comments functionality
 
-- Acceptance Criteria 1  
-Given the site user has an existing booking, they can modify their bookings via the 'My Bookings' page
+As a site owner I can have a user-friendly comments section so that visitors can easily send feedback about their previous purchases
 
-**User Story - Cancelling a booking**
-
-As a registered user I can cancel a booking if I can no longer attend so that I can manage my commitments and possibly allow others to book the now-available spot
-
-- Acceptance Criteria 1  
-Given the user has a booked course  
-- Acceptance Criteria 2  
-Given the user has a booked course 
-
-**User Story - Implement modal pop-up confirmations for booking and booking changes**
-
-As a site user I can receive immediate, clear confirmation requests in the form of modal pop-ups whenever I attempt to make any changes to my bookings so that instantly understand the impact of my actions
-
-- Acceptance Criteria 1  
-Given a user is on the booking or booking modification page when the user initiates a new booking or change to an existing booking, a modal pop-up should immediately appear, confirming the booking or change  
-- Acceptance Criteria 2  
-Given a modal pop-up is displayed to the user, if the user clicks confirm it will confirm the booking / change of booking with the user and update the relevant database models
-- Acceptance Criteria 3  
-Given a modal pop-up is displayed to the user when the user clicks the "Cancel" button the modal closes without making any modifications to the booking
-
-#### Epic 3 - Developing User Testimonial functionality
-
-As a site owner I can have a user-friendly testimonials section so that visitors can easily send feedback about their experiences if they've booked with Studio Booker before and can see the feedback of previous users
-
-**User Story - Accessing the testimonial form**
+**User Story - Accessing the comments form**
 
 As a site user I can easily find and access the testimonial form from any page on the website so that I am as encouraged to leave feedback as is possible
 
