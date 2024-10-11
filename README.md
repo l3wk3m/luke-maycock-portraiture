@@ -202,21 +202,12 @@ As a site owner I can have a user-friendly comments section so that visitors can
 
 **User Story - Accessing the comments form**
 
-As a site user I can easily find and access the testimonial form from any page on the website so that I am as encouraged to leave feedback as is possible
+As a site user I can easily find and access the comments form from any page on the website so that I am as encouraged to leave feedback as is possible
 
 - Acceptance Criteria 1  
-Given the user is anywhere at the website, a clear link to the testimonials page is available on every page, either in the navigation menu or footer  
-- Acceptance Criteria 2  
-
-**User Story - Submitting a testimonial**
-
-As a site user I can submit a testimonial using the form so that I can communicate my with the studios and this website
-
-- Acceptance Criteria 1  
-Given the user has any feedback or experience booking with Studio Booker   
-- Acceptance Criteria 2  
-
-- Acceptance Criteria 3  
+Given the user is on a Product Details page for any product, they will have access to a comments section where they can leave reviews about past purchasing experiences they have had with the specified product.
+- Acceptance Criteria 2
+Given the user is on a Product Details page for any product, they will have access to viewing the comments that have been left for that product in the past.
 
 
 **User Story - Receive confirmation after sending testimonial form**
