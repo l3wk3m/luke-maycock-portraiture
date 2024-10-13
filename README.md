@@ -822,7 +822,7 @@ The code languages used in this project are HTML, CSS, JavaScript and Python. Th
 - Press "Connect"
 - Under "Manual deploy", choose which branch to deploy and press "Deploy Branch"
 
-Link to deployed website: <https://_____.herokuapp.com/>
+Link to deployed website: <https://luke-maycock-portraiture-07a5a58fe66d.herokuapp.com/>
 
 ## Credits
 
