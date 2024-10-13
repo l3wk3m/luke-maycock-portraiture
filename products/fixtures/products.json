@@ -9,7 +9,7 @@
         "price": 179.99,
         "category": 1,
         "rating": 4.6,
-        "image_url": "",
+        "image_url": "/workspace/luke-maycock-portraiture/media/hand_pencil_art_2.webp",
         "image": ""
         }
     },
@@ -24,7 +24,7 @@
         "price": 69.99,
         "category": 2,
         "rating": 4.2,
-        "image_url": "",
+        "image_url": "/workspace/luke-maycock-portraiture/media/head_profile_painting.webp",
         "image": ""
         }
     },
@@ -39,7 +39,7 @@
         "price": 199.99,
         "category": 1,
         "rating": 4.8,
-        "image_url": "",
+        "image_url": "/workspace/luke-maycock-portraiture/media/framed_hand_drawn_portrait.webp",
         "image": ""
         }
     },
@@ -54,7 +54,7 @@
         "price": 229.99,
         "category": 1,
         "rating": 4.2,
-        "image_url": "",
+        "image_url": "/workspace/luke-maycock-portraiture/media/head_profile_painting.webp",
         "image": ""
         }
     },
@@ -69,7 +69,7 @@
         "price": 249.99,
         "category": 1,
         "rating": 4.3,
-        "image_url": "",
+        "image_url": "/workspace/luke-maycock-portraiture/media/head_profile_painting.webp",
         "image": ""
         }
     },
@@ -84,7 +84,7 @@
         "price": 39.99,
         "category": 2,
         "rating": 4.5,
-        "image_url": "",
+        "image_url": "/workspace/luke-maycock-portraiture/media/digital_portrait.webp",
         "image": ""
         }
     }
