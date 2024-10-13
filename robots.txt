@@ -3,4 +3,4 @@ Disallow: /accounts/
 Disallow: /cart/
 Disallow: /checkout/
 Disallow: /profiles/
-Sitemap: https://luke-maycock-portraiture.herokuapp.com/sitemap.xml
+Sitemap: https://luke-maycock-portraiture-07a5a58fe66d.herokuapp.com/sitemap.xml
