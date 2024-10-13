@@ -1,0 +1,1 @@
+web: gunicorn luke_maycock_portraiture.wsgi:application

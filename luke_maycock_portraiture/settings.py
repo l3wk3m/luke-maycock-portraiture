@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-g@amssxnejco-$bc0fj6=v@j7esbj8+%do#dg61zeae89-xac6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-l3wk3m-lukemaycockportr-i4jneg2c95x.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = ['luke-maycock-portraiture.herokuapp.com', '8000-https://l3wk3m-lukemaycockportr-i4jneg2c95x.ws.codeinstitute-ide.net']
 
 
 # Application definition
@@ -106,22 +106,26 @@ WSGI_APPLICATION = 'luke_maycock_portraiture.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
-
 # DATABASES = {
- #     'default': {
- #         'ENGINE': 'django.db.backends.sqlite3',
- #         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
- #     }
- # }
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+# #         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
      
 # DATABASES = {
-#     'default': dj_database_url.parse('sql url')
+#     'default': dj_database_url.parse('postgres://uxo3hooruft:eI0IJJmFqYQQ@ep-gentle-mountain-a23bxz6h-pooler.eu-central-1.aws.neon.tech/worry_scan_pond_821279')
 # }
 
 
