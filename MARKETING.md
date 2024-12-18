@@ -91,7 +91,7 @@ Any paid marketing strategies were beyond the scope and requirements for this pr
 
 - **Social Media Marketing => Mock FB page**
 
-    ![Facebook mock-up](media/readme/facebook-mockup.webp)
+    ![Facebook mock-up](/workspace/luke-maycock-portraiture/media/facebook-mockup.webp)
 
     The Facebook page is a way to reach out and spread the word through more text based channels than just Instagram.
 
