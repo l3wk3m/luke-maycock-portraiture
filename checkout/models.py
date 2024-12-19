@@ -50,6 +50,12 @@ class Order(models.Model):
         self.grand_total = self.order_total + self.delivery_cost
         self.save()
 
+    def total_project_time(self):
+        """
+        Totals up the amount of time it will take to fulfill an order
+        """
+
+
     def save(self, *args, **kwargs):
         """
         Override the original save method to set the order number
@@ -76,6 +82,10 @@ class OrderLineItem(models.Model):
         """
         self.lineitem_total = self.product.price * self.quantity
         super().save(*args, **kwargs)
+
+    def line_item_turnaround(self):
+        line_item_turnaround = self.product.project_turnaround * self.quantity
+        return line_item_turnaround
 
     def __str__(self):
         return f'SKU {self.product.sku} on order {self.order.order_number}'
